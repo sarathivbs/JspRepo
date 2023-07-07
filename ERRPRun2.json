@@ -1,0 +1,128 @@
+{
+	"id": "e004a172-36a3-416d-829f-13507eb3136f",
+	"name": "ERRP",
+	"timestamp": "2023-03-25T05:40:28.314Z",
+	"collection_id": "0-6570d482-895f-4856-a0dc-811c01d7060d",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "0d3b9668-dc2c-4346-88c9-a19e2dabebcd",
+			"name": "users view",
+			"url": "https://reqres.in/api/users?page=2",
+			"time": 76,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				76
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "c4e811e2-3cf3-4dbe-97af-87f0b0844650",
+			"name": "Single User View",
+			"url": "https://reqres.in/api/users/2",
+			"time": 70,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				70
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "da539c37-0fd2-4824-9cb9-965230dff125",
+			"name": "Single Resource",
+			"url": "https://reqres.in/api/unknown/23",
+			"time": 418,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				418
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "96cb091f-6810-450a-b972-b5a0a482e0ac",
+			"name": "OTP generate",
+			"url": "https://reqres.in/api/users?delay=3",
+			"time": 3444,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				3444
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "e4cda542-adf9-438e-99bb-33a7558e75a8",
+			"name": "New Request",
+			"url": "https://reqres.in/api/users",
+			"time": 555,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				555
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 4563,
+	"collection": {
+		"requests": [
+			{
+				"id": "0d3b9668-dc2c-4346-88c9-a19e2dabebcd",
+				"method": "GET"
+			},
+			{
+				"id": "c4e811e2-3cf3-4dbe-97af-87f0b0844650",
+				"method": "GET"
+			},
+			{
+				"id": "da539c37-0fd2-4824-9cb9-965230dff125",
+				"method": "GET"
+			},
+			{
+				"id": "96cb091f-6810-450a-b972-b5a0a482e0ac",
+				"method": "GET"
+			},
+			{
+				"id": "e4cda542-adf9-438e-99bb-33a7558e75a8",
+				"method": "POST"
+			}
+		]
+	}
+}
